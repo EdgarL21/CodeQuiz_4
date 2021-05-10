@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="start">Start Quiz</div>
+        <div id="quiz" style="display: none">
+
+            <div id="question"></div>
+            <!-- <div id="qImg"></div> -->
+
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+
+            <div id="progress"></div>
+        </div>
+
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="container">
+
+
+        <div> Timer:</div>
+        <div id="count" class="hide">180</div>
+        
+
+        <div id="quesContainer">
+            <div id="question" class="questions hide">Questions</div>
+            <div id="answers" class="grid hide" >
+                <button class="answers-btn">Answer1</button>
+                <button class="answers-btn">Answer2</button>
+                <button class="answers-btn">Answer3</button>
+                <button class="answers-btn">Answer4</button>
+            </div>
+        </div>
+        
+
+        <div>
+            <button id="start-btn" class="btn">Start</button>
+            <button id="next-btn" class="btn hide">Next</button>
+        </div>
+    </div> -->
